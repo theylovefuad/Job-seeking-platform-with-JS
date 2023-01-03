@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Gray Minimalist New Post Instagram Story 2 */
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero {
+    background-image: url('./image.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.lato {
+    font-family: 'Lato';
+}
+
+.main-search {
+    width: 50%;
+    border-radius: 4px;
+    font-family: 'Lato';
+    height: 35px;
+}
