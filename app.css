@@ -7,6 +7,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 
 .logo {
@@ -29,8 +30,60 @@ h1 {
 }
 
 .main-search {
-    width: 50%;
     border-radius: 4px;
-    font-family: 'Lato';
-    height: 35px;
+    font-family: 'Inter';
+    height: 45px;
+    align-self: center;
+}
+
+.seacrh__btn {
+    height: 45px;
+
+}
+
+.description {
+    font-size: 12px;
+}
+
+.featured {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: black;
+    transition: all 350ms ease;
+    cursor: pointer;
+}
+
+.featured__description {
+    height: 80px;
+    background: rgba(20, 20, 20, 0.5);
+    position: relative;
+    top: 120px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+.featured:hover {
+    scale: 1.1;
+}
+
+.stats {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.stat img {
+    height: 40px;
+    width: 40px;
+}
+
+.download {
+    border-radius: 18px;
+    background-color: white;
+    padding: 10px;
+    transition: all 400ms ease;
+}
+
+.download:hover {
+    scale: 1.1;
 }

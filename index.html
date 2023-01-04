@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav class="w-screen md:px-8 px-4 py-4 justify-between">
         <div class="flex flex-row items-center justify-between">
             <div class="w-1/2 flex flex-row items-center mt-0">
@@ -31,18 +32,117 @@
             </div>
         </div>
     </nav>
-    <div class="hero bg-primary w-screen h-1/2 md:p-10 md:px-16 text-center justify-center"
+
+    <!-- Hero -->
+
+    <div class="hero bg-primary w-screen h-1/2 md:p-10 md:px-16 text-center flex items-center justify-center"
         style="background-image: url('./image.svg');background-size: cover; background-position: center;">
-        <h1 class="text-white text-center tracking-wider mb-6 lato">Connecting Finders to Seekers. Find or Create a Job
-            Posting
-            Today
-        </h1>
-        <p class="text-white justify-center text-center justify-self-auto text-sm mb-6">
-            Craiglist is a classified advert website with sections devoted to jobs postings, housing, items for sale,
-            services, communit services, gigs and practically every existing topic.
-        </p>
-        <input class="main-search">
+        <div class="flex flex-col md:w-3/4 justify-center">
+            <h1 class="text-white text-center tracking-wider mb-6 lato">Connecting Finders to Seekers.<br> Find or
+                Create a
+                Job
+                Posting
+                Today
+            </h1>
+            <p class="text-white text-center text-sm mb-8 description">
+                Craiglist is a classified advert website with sections devoted to jobs postings, housing, items for
+                sale,
+                services, <br>communit services, gigs and practically every existing topic.
+            </p>
+            <div class="flex flex-row items-center justify-center">
+                <input class="main-search p-2 px-4 justify-center w-1/2 mt-4"
+                    placeholder="Search jobs, gigs, postings...">
+            </div>
+
+        </div>
     </div>
+
+    <!-- Featured -->
+
+    <div class="pt-6 md:py-8">
+        <h1 class="text-center text-bold lato">Featured Jobs</h1>
+        <p class="text-center mb-8 description">
+            Outside the box jobs for you today. Low Supply, High Demand.
+        </p>
+        <div class="flex flex-row space-x-6 justify-center">
+            <div class="featured" style="background-image: url('./images/event.png');background-size: cover;">
+                <div class="featured__description p-3">
+                    <h4 class="text-white">Event Planning</h4>
+                    <p class="description text-white lato">
+                        Event planners make up only 2% of craiglist...
+                    </p>
+                </div>
+            </div>
+            <div class="featured" style="background-image: url('./images/dog.png');background-size:cover;">
+                <div class="featured__description p-3">
+                    <h4 class="text-white">Dog Sitting</h4>
+                    <p class="description text-white lato">
+                        Craiglist users are in search of dog sitters...
+                    </p>
+
+                </div>
+            </div>
+            <div class="featured" style="background-image: url('./images/Rectangle\ 16.png');background-size:cover;">
+                <div class="featured__description p-3">
+                    <h4 class="text-white">Child Care</h4>
+                    <p class="description text-white lato">
+                        An extremely delicate category for certified personnel only!
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Stats-->
+
+    <div class="flex flex-row space-x-4 md:space-x-16 justify-center p-10 stat">
+        <div class="flex flex-col space-y-2 items-center">
+            <img src="./images/task-square.png">
+            <span class="stats lato text-teal-800">20K+</span>
+            <p class="description">Total Job Lsistings</p>
+        </div>
+        <div class="flex flex-col space-y-2 items-center">
+            <img src="./images/people.png">
+            <span class="stats lato text-primary">1.7k+</span>
+            <p class="description">Active Users</p>
+        </div>
+        <div class="flex flex-col space-y-2 items-center">
+            <img src="./images/volume-high.png">
+            <span class="stats lato text-red-700">17k+</span>
+            <p class="description">Jobs/Contracts awarded</p>
+        </div>
+
+    </div>
+
+    <!-- Ad -->
+
+    <div class="hero bg-secondary w-screen md:px-16 text-center flex items-center justify-center"
+        style="background-image: url('./image.svg');background-size: cover; background-position: center;">
+        <div class="flex md:flex-row justify-between items-center">
+            <div class="items-center text-left">
+                <h1 class="mb-4">Download Our Mobile App</h1>
+                <p class="description mb-4">Find jobs. Hire employees. Post your resume. Offer your skills/services. Buy
+                    &
+                    sell </p>
+                <div class="flex flex-row space-x-2">
+                    <button class="download description shadow-md flex flex-row items-center space-x-1">
+                        <img src="./images/Apple Logo.png" class="h-4">
+                        <span>From App Store</span>
+                    </button>
+                    <button class="download description shadow-md flex flex-row items-center space-x-1">
+                        <img src="./images/Apple Logo (1).png" class="h-4">
+                        <span>From Play Store</span>
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img src="./images/image 5.png">
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
