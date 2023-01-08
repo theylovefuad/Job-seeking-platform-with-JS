@@ -87,3 +87,39 @@ h1 {
 .download:hover {
     scale: 1.1;
 }
+
+.subscribe__input,
+.subscribe__btn {
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.subscribe__input {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    min-width: 300px;
+}
+
+.subscribe__btn {
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.copyright {
+    border-top: 0.7px solid white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 15px;
+}
+
+.sale,
+.sale__img {
+    border-radius: 8px;
+}
+
+.sale {
+    border: 1px solid lightgray;
+}
